@@ -26,6 +26,10 @@ public class TalleyCounter
 		count++; //shortcut for count = count + 1;
 				//another option: count +=1
 	}
+	public void unclick()
+	{
+		count--; //shortcut for count = count - 1;
+	}
 	public int getCount()
 	{
 		return count;
@@ -33,9 +37,5 @@ public class TalleyCounter
 	public void reset()
 	{
 		count=0;
-	}
-	public void unclick()
-	{
-		count--; //shortcut for count = count - 1;
 	}
 }
