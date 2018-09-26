@@ -17,12 +17,16 @@ public class TalleyCounterMain
 		System.out.println(papaoutai.getCount());
 		papaoutai.reset();
 		System.out.println(papaoutai.getCount());
+		System.out.println(papaoutai.toString());
+		System.out.println(papaoutai);
 	
 		TalleyCounter daddyouthicc = new TalleyCounter(69);
 		System.out.println(daddyouthicc.getCount());
 		daddyouthicc.click();
 		daddyouthicc.click();
 		System.out.println(daddyouthicc.getCount());
-		
+		System.out.println(daddyouthicc);
+		String stringDeal = "" + daddyouthicc;
+		System.out.println(stringDeal);
 	}
 }
